@@ -13,7 +13,7 @@ const Footer = ({ contactInfo, heroContent }) => {
     <Box
       component="footer"
       sx={{
-        bgcolor: '#050505',
+        bgcolor: '#000',
         borderTop: '1px solid rgba(212, 175, 55, 0.1)',
         pt: 4,
         pb: 'calc(24px + env(safe-area-inset-bottom, 0px))',
