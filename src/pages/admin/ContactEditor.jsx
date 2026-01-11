@@ -217,7 +217,7 @@ END:VCARD`;
                   <CustomTextField
                     label="Telefon"
                     name="phone"
-                    placeholder="+90 555 123 4567"
+                    placeholder="0 555 123 4567"
                     icon={<Phone />}
                     formik={formik}
                   />
@@ -226,7 +226,7 @@ END:VCARD`;
                   <CustomTextField
                     label="WhatsApp"
                     name="whatsapp"
-                    placeholder="+905551234567"
+                    placeholder="05551234567"
                     icon={<WhatsApp />}
                     formik={formik}
                   />

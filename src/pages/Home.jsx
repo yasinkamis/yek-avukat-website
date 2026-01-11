@@ -27,10 +27,10 @@ const fallbackData = {
     photoUrl: '/yek.jpeg'
   },
   contact: {
-    phone: '+90 555 123 4567',
+    phone: '0 555 123 4567',
     email: 'info@yekavukat.com',
     address: 'İstanbul, Türkiye',
-    whatsapp: '+905551234567',
+    whatsapp: '05551234567',
     linkedin: '',
     instagram: ''
   }

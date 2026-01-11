@@ -67,10 +67,10 @@ END:VCARD`;
   };
 
   const contactItems = [
-    { icon: <Phone sx={{ fontSize: 22 }} />, label: 'Telefon', value: contactInfo?.phone || '+90 555 123 4567', href: `tel:${contactInfo?.phone || '+905551234567'}` },
+    { icon: <Phone sx={{ fontSize: 22 }} />, label: 'Telefon', value: contactInfo?.phone || '0 555 123 4567', href: `tel:${contactInfo?.phone || '05551234567'}` },
     { icon: <Email sx={{ fontSize: 22 }} />, label: 'Email', value: contactInfo?.email || 'info@yekavukat.com', href: `mailto:${contactInfo?.email || 'info@yekavukat.com'}` },
     { icon: <LocationOn sx={{ fontSize: 22 }} />, label: 'Adres', value: contactInfo?.address || 'İstanbul, Türkiye', href: null },
-    { icon: <WhatsApp sx={{ fontSize: 22 }} />, label: 'WhatsApp', value: 'Mesaj Gönder', href: `https://wa.me/${(contactInfo?.whatsapp || '+905551234567').replace(/\D/g, '')}` },
+    { icon: <WhatsApp sx={{ fontSize: 22 }} />, label: 'WhatsApp', value: 'Mesaj Gönder', href: `https://wa.me/${(contactInfo?.whatsapp || '05551234567').replace(/\D/g, '')}` },
   ];
 
   return (
